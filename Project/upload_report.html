@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Report</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="upload_report.js" defer></script>
+</head>
+<body>
+    <div class="upload-container">
+        <h2>Upload Test Report</h2>
+        <form id="uploadForm">
+            <label for="reportType">Report Type:</label>
+            <select id="reportType" name="reportType" required>
+                <option value="">Select Report Type</option>
+                <option value="blood">Blood Test</option>
+                
+            </select>
+
+            <label for="reportFile">Upload Report (jpg, pdf):</label>
+            <input type="file" id="reportFile" name="reportFile" accept=".jpg,.jpeg,.pdf" required>
+			 
+			 <label for="language">Preferred Language:</label> 
+			 <select id="language" name="language" required> 
+			     <option value="english">English</option> 
+				 <option value="tamil">Tamil</option> 
+				 <option value="hindi">Hindi</option> 
+			 </select>
+			 
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

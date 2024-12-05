@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.login-container, .home-container, .test-container, .upload-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc; /* Pale color for border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2, .home-container h2, .test-container h2, .upload-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container label, .home-container label, .test-container label, .upload-container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-container input, .home-container input, .test-container input, .upload-container input,
+.login-container select, .test-container select, .upload-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container button, .home-container button, .test-container button, .upload-container button {
+    background-color: #ff6961; /* Light red color for button */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-container button:hover, .home-container button:hover, .test-container button:hover, .upload-container button:hover {
+    background-color: #77dd77; /* Light green color on hover */
+}
